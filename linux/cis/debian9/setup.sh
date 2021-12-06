@@ -46,7 +46,7 @@ cat > /etc/ansible/harden.yml << EOF
 	debian9cis_net_snmp: false
 
   roles:
-    - debian9_cis
+    - Debian9-CIS
 EOF
 
 ansible-playbook /etc/ansible/harden.yml
