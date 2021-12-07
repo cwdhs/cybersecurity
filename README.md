@@ -2,15 +2,20 @@
 A collection of tools and documentation to help with hardening Windows- and Linux-based operating systems.
 
 ### Supported platforms
-* Windows 10
-* Windows Server 2019
-* Windows Server 2016
-* Ubuntu 20
-* Ubuntu 18
-* Ubuntu 16
-* Debian 10
-* Debian 9
-* Debian 8
+| Platform | CIS script | Custom scripts |
+| :-- | --- | --- |
+| Windows 10 | ✔️ | ✔️ |
+| Windows 11 | ❌ | ❌ |
+| Windows Server 2019 | ✔️ | ✔️ |
+| Windows Server 2016 | ✔️ | ✔️ |
+| Ubuntu 21 | ❌ | ❌ |
+| Ubuntu 20 | ✔️ | ✔️ |
+| Ubuntu 18 | ✔️ | ✔️ |
+| Ubuntu 16 | ✔️ | ✔️ |
+| Debian 11 | ❌ | ❌ |
+| Debian 10 | ✔️ | ✔️ |
+| Debian 9 | ✔️ | ✔️ |
+| Debian 8 | ✔️ | ✔️ |
 
 ### Setup
 
