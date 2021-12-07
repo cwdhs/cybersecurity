@@ -17,13 +17,13 @@ Get-WmiObject Win32_UserProfile | ForEach-Object {
 	$username = $user.Value
 
 	# create a command to get their permissions
-	$chkCmd = "bin/accesschk.exe """ + $username + """ -a * -q -nobanner"
+	$command = "bin/accesschk.exe """ + $username + """ -a * -q -nobanner"
 
 	# print their username
 	$username
 
 	# print their permissions
-	Invoke-Expression $chkCmd
+	Invoke-Expression $command
 
 	# print a blank line as spacing between entries
 	""

@@ -40,5 +40,4 @@ For example, `hello/[one, two]/three` can be expanded to `hello/one/three` and `
 | Ubuntu 16.04 | https://github.com/radsec/Ubuntu1604-CIS | Hardening scripts for Ubuntu 16.04 |
 | Debian 10 | https://github.com/dbernaci/CIS-Debian10-Ansible | Hardening script written in Ansible for Debian 10 |
 | Debian 7 and 9 | https://github.com/tuxtter/hardening | Hardening script for Debian 7 and Debian 9 |
-| Debian 9 | https://github.com/florianutz/Debian9-CIS | Hardening script for Debian 9 |
 | Linux | https://github.com/nozaq/amazon-linux-cis | Hardening script for Amazon Linux |
