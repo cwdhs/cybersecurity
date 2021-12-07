@@ -3,7 +3,7 @@ A collection of tools and documentation to help with hardening Windows- and Linu
 
 ### Supported platforms
 | Platform | CIS script | Custom scripts |
-| :-- | --- | --- |
+| :-- | :-: | :-: |
 | Windows 11 | ❌ | ❌ |
 | Windows 10 | ✔️ | ✔️ |
 | Windows Server 2019 | ✔️ | ✔️ |
