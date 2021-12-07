@@ -12,6 +12,15 @@ A collection of tools and documentation to help with hardening Windows- and Linu
 * Debian 9
 * Debian 8
 
+### Setup
+
+Linux
+* Fix line endings with `shopt -s globstar && dos2unix ./**/*.sh`
+* Run the appropriate file in the [release](./release) folder with root privileges.
+
+Windows
+* Run the appropriate file in the [release](./release) folder with administrator privileges.
+
 ### Folders
 `[one, two]` is a pattern that includes both `one` and `two` folders for the remaining content.
 For example, `hello/[one, two]/three` can be expanded to `hello/one/three` and `hello/two/three`.
