@@ -15,7 +15,7 @@ A collection of tools and documentation to help with hardening Windows- and Linu
 ### Setup
 
 Linux
-* Fix line endings with `shopt -s globstar && dos2unix ./**/*.sh`
+* Fix line endings with `apt install dos2unix -y && shopt -s globstar && dos2unix ./**/*.sh`
 * Run the appropriate file in the [release](./release) folder with root privileges.
 
 Windows
