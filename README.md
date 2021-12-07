@@ -19,6 +19,7 @@ For example, `hello/[one, two]/three` can be expanded to `hello/one/three` and `
 | Folder | Source | Description |
 | :-- | :-- | :-- |
 | `docs/cis` | [Center for Internet Security](https://www.cisecurity.org/cis-benchmarks) | A collection of CIS benchmarks |
+| `release` | | Not sure what to run? Just run the file for your operating system in here |
 | `linux/cis/debian` | [OVH](https://github.com/ovh/debian-cis) | CIS-compliant script for Debian 8 to 10 |
 | `linux/cis/debian9` | [florianutz](https://github.com/florianutz/Debian9-CIS) | CIS-compliant script for Debian 9 |
 | `linux/cis/[ubu16, ubu18, ubu20]` | [florianutz](https://github.com/florianutz) | CIS-compliant scripts for Ubuntu 16 to 20 |
