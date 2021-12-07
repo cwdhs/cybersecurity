@@ -23,8 +23,8 @@ For example, `hello/[one, two]/three` can be expanded to `hello/one/three` and `
 | [`linux/cis/debian`](./linux/cis/debian) | [OVH](https://github.com/ovh/debian-cis) | CIS-compliant script for Debian 8 to 10 |
 | [`linux/cis/debian9`](./linux/cis/debian9) | [florianutz](https://github.com/florianutz/Debian9-CIS) | CIS-compliant script for Debian 9 |
 | `linux/cis/[`[`ubu16`](./linux/cis/ubu16)`, `[`ubu18`](./linux/cis/ubu18)`, `[`ubu20`](./linux/cis/ubu20)`]` | [florianutz](https://github.com/florianutz) | CIS-compliant scripts for Ubuntu 16 to 20 |
-| `[`[`linux`](./linux/diff)`, `[`windows`](./windows/diff)`]/diff` | [Matteo Polak](https://github.com/matteopolak) | Returns a list of all files that are not present in a vanilla installation of an operating system |
-| `[`[`linux`](./linux/files)`, `[`windows`](./windows/files)`]/files` | [Matteo Polak](https://github.com/matteopolak) | Finds suspiscious file extensions and writes them to a file |
+| `[linux, windows]/diff` | [Matteo Polak](https://github.com/matteopolak) | Returns a list of all files that are not present in a vanilla installation of an operating system |
+| `[linux, windows]/files` | [Matteo Polak](https://github.com/matteopolak) | Finds suspiscious file extensions and writes them to a file |
 | [`windows/cis`](./windows/cis) | [NVISO Security](https://github.com/NVISOsecurity/posh-dsc-windows-hardening) | CIS-compliant scripts for Windows 10 and Windows Server 2016 to 2019 |
 | [`windows/security`](./windows/security) | | A collection of scripts to audit permissions and other content |
 | [`linux/security`](./linux/security) | | A collection of scripts to audit permissions and other content |
