@@ -1,4 +1,5 @@
 ## Checklist for Ubuntu 16.04 to 20.04
+### This checklist should be done **after** running the hardening scripts located in this repository.
 
 1. Audit installed packages
 	* `apt list --installed`

@@ -1,4 +1,5 @@
 ## Checklist for Windows 10
+### This checklist should be done **after** running the hardening scripts located in this repository.
 
 1. Enable file backups
 2. Enable auto-updates
