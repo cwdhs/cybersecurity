@@ -3,7 +3,7 @@ cd /D "%~dp0"
 powershell "Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Unrestricted -Force"
 
 :: run filesystem diff script
-call "../windows/files/find-winser2016.bat"
+call "../windows/diff/find-winser2016.bat"
 cd /D "%~dp0"
 
 :: run CIS-compliant script

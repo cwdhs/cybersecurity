@@ -2,15 +2,29 @@
 A collection of tools and documentation to help with hardening Windows- and Linux-based operating systems.
 
 ### Supported platforms
-* Windows 10
-* Windows Server 2019
-* Windows Server 2016
-* Ubuntu 20
-* Ubuntu 18
-* Ubuntu 16
-* Debian 10
-* Debian 9
-* Debian 8
+| Platform | CIS script | Custom scripts |
+| :-- | :-: | :-: |
+| Windows 11 | ✔️ | ❌ |
+| Windows 10 | ✔️ | ✔️ |
+| Windows Server 2019 | ✔️ | ✔️ |
+| Windows Server 2016 | ✔️ | ✔️ |
+| Ubuntu 21 | ❌ | ❌ |
+| Ubuntu 20 | ✔️ | ✔️ |
+| Ubuntu 18 | ✔️ | ✔️ |
+| Ubuntu 16 | ✔️ | ✔️ |
+| Debian 11 | ❌ | ❌ |
+| Debian 10 | ✔️ | ✔️ |
+| Debian 9 | ✔️ | ✔️ |
+| Debian 8 | ✔️ | ✔️ |
+
+### Setup
+
+Linux
+* Fix line endings with `apt install dos2unix -y && shopt -s globstar && dos2unix ./**/*.sh`
+* Run the appropriate file in the [release](./release) folder with root privileges.
+
+Windows
+* Run the appropriate file in the [release](./release) folder with administrator privileges.
 
 ### Folders
 `[one, two]` is a pattern that includes both `one` and `two` folders for the remaining content.
@@ -18,14 +32,16 @@ For example, `hello/[one, two]/three` can be expanded to `hello/one/three` and `
 
 | Folder | Source | Description |
 | :-- | :-- | :-- |
-| `docs/cis` | [Center for Internet Security](https://www.cisecurity.org/cis-benchmarks) | A collection of CIS benchmarks |
-| `linux/cis/debian` | [OVH](https://github.com/ovh/debian-cis) | CIS-compliant script for Debian 8 to 10 |
-| `linux/cis/debian9` | [florianutz](https://github.com/florianutz/Debian9-CIS) | CIS-compliant script for Debian 9 |
+| [`docs/cis`](./docs/cis) | [Center for Internet Security](https://www.cisecurity.org/cis-benchmarks) | A collection of CIS benchmarks |
+| [`release`](./release) | | Not sure what to run? Just run the file for your operating system in here |
+| [`linux/cis/debian`](./linux/cis/debian) | [OVH](https://github.com/ovh/debian-cis) | CIS-compliant script for Debian 8 to 10 |
+| [`linux/cis/debian9`](./linux/cis/debian9) | [florianutz](https://github.com/florianutz/Debian9-CIS) | CIS-compliant script for Debian 9 |
 | `linux/cis/[ubu16, ubu18, ubu20]` | [florianutz](https://github.com/florianutz) | CIS-compliant scripts for Ubuntu 16 to 20 |
 | `[linux, windows]/diff` | [Matteo Polak](https://github.com/matteopolak) | Returns a list of all files that are not present in a vanilla installation of an operating system |
-| `[linux, windows]/find` | [Matteo Polak](https://github.com/matteopolak) | Finds suspiscious file extensions and writes them to a file |
-| `windows/cis` | [NVISO Security](https://github.com/NVISOsecurity/posh-dsc-windows-hardening) | CIS-compliant scripts for Windows 10 and Windows Server 2016 to 2019 |
-| `windows/security` | ??? | A collection of scripts to audit permissions and other content |
+| `[linux, windows]/files` | [Matteo Polak](https://github.com/matteopolak) | Finds suspiscious file extensions and writes them to a file |
+| [`windows/cis`](./windows/cis) | [NVISO Security](https://github.com/NVISOsecurity/posh-dsc-windows-hardening) | CIS-compliant scripts for Windows 10 and Windows Server 2016 to 2019 |
+| [`windows/security`](./windows/security) | | A collection of scripts to audit permissions and other content |
+| [`linux/security`](./linux/security) | | A collection of scripts to audit permissions and other content |
 
 ### Other content
 | Operating System | Link | Description |

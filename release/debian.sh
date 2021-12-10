@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # run filesystem diff script
-bash ../linux/files/find.sh
+bash ../linux/diff/find.sh
 
 # run CIS-compliant hardening script
 bash ../linux/cis/debian/setup.sh

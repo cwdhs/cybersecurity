@@ -1,4 +1,5 @@
 ## Checklist for Windows Server 2016 to 2019
+### This checklist should be done **after** running the hardening scripts located in this repository.
 
 1. Restrict administrator access
 2. Set up logging for all events
