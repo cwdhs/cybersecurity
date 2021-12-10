@@ -16,4 +16,5 @@ find .. -name \*.txt -exec mv {} ../results \;
 # re-install gdm3, the GUI
 apt-get install -y gdm3
 
-echo "install squashfs /bin/true" >> /etc/modprobe.conf;
+# unlock user's account
+usermod -U $(whoami)

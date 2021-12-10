@@ -15,3 +15,6 @@ find .. -name \*.txt -exec mv {} ../results \;
 
 # re-install lightdm, the GUI
 apt-get install -y lightdm
+
+# unlock user's account
+usermod -U $(whoami)
